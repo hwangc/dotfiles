@@ -78,6 +78,8 @@
     Plugin 'Lokaltog/vim-easymotion'
     Plugin 'junegunn/goyo.vim'
     Plugin 'instant-markdown.vim'
+    Plugin 'junegunn/fzf' 
+
     " All of your Plugins must be added before the following line
     call vundle#end()            " required
     filetype plugin indent on    " required
@@ -140,4 +142,8 @@
     " different highlight method and have some other features )
     map  n <Plug>(easymotion-next)
     map  N <Plug>(easymotion-prev)
+" }
+
+"FZF Settings {
+
 " }
