@@ -145,5 +145,13 @@
 " }
 
 "FZF Settings {
-
+    set rtp+=~/.vim/bundle/fzf
+    " ctrl-[a-z], alt-[a-z], f[1-4], or any single character
+    let g:fzf_action = {
+        \ 'ctrl-m': 'e',
+        \ 'ctrl-t': 'tabedit',
+        \ 'alt-j':  'botright split',
+        \ 'alt-k':  'topleft split',
+        \ 'alt-h':  'vertical topleft split',
+        \ 'alt-l':  'vertical botright split' }
 " }
