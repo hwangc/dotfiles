@@ -5,6 +5,7 @@
     set nobackup
     set background=dark
     set number
+    set clipboard=unnamed
     colorscheme monokai
     """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
     " => Text, tab and indent related
@@ -154,4 +155,8 @@
         \ 'alt-k':  'topleft split',
         \ 'alt-h':  'vertical topleft split',
         \ 'alt-l':  'vertical botright split' }
+" }
+
+"InstantMarkDown Settings {
+    let g:instant_markdown_autostart = 0
 " }
