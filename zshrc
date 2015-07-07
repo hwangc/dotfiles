@@ -32,3 +32,29 @@ fe() {
   file=$(fzf --query="$1" --select-1 --exit-0)
   [ -n "$file" ] && ${EDITOR:-vim} "$file"
 }
+
+# Functions
+function cls {
+    clear;
+    ls;
+}
+# show the current directory list
+function cdl { 
+    [ $# -eq 0 ] && cd . || cd $1
+    cls;
+}
+# show the user root directory list
+function cdh { 
+    cd;
+    cls;
+}
+# show the desktop and list
+function desk {
+    cd ~/Desktop; 
+    cls;
+}
+# go back and forward directory
+function ct {
+    cd -;
+    cls;
+}
