@@ -8,7 +8,7 @@
 
 dir=~/dotfiles                    # dotfiles directory
 olddir=~/dotfiles_old             # old dotfiles backup directory
-declare -a files=("fzf.zsh" "vimrc" "zshrc" "tmux.conf" "zpreztorc" "zlogin" "zlogout" "zprofile" "zshenv")    # list of files/folders to symlink in homedir
+declare -a files=("fzf.zsh" "vimrc" "zshrc" "tmux.conf" "zpreztorc" "zlogin" "zlogout" "zprofile" "zshenv" "nvmrc")    # list of files/folders to symlink in homedir
 
 ##########
 
