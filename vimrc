@@ -67,10 +67,10 @@
 
     " The following are examples of different formats supported.
     " Keep Plugin commands between vundle#begin/end.
-    Plugin 'bling/vim-airline'
+    Plugin 'vim-airline/vim-airline'
+    Plugin 'vim-airline/vim-airline-themes'
     Plugin 'tpope/vim-fugitive'
     Plugin 'edkolev/tmuxline.vim'
-    Plugin 'Valloric/YouCompleteMe'
     Plugin 'SirVer/ultisnips'
     Plugin 'honza/vim-snippets'
     Plugin 'open-browser.vim'
@@ -80,7 +80,8 @@
     Plugin 'junegunn/goyo.vim'
     Plugin 'instant-markdown.vim'
     Plugin 'junegunn/fzf' 
-
+    Plugin 'tpope/vim-surround'
+    Plugin 'scrooloose/nerdtree'
     " All of your Plugins must be added before the following line
     call vundle#end()            " required
     filetype plugin indent on    " required
