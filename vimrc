@@ -35,10 +35,10 @@
 
 " Mapping Settings {
     "Disable arrow keys for movement in both insert and cmd mode
-    noremap <Left>   <NOP>
-    noremap <Right>  <NOP>
-    noremap <Up>     <NOP>
-    noremap <Down>   <NOP>
+    "nnoremap <Left>   <NOP>
+    "nnoremap <Right>  <NOP>
+    "noremap <Up>     <NOP>
+    "noremap <Down>   <NOP>
    " Keyboard overrides
     imap jk <ESC>
 
@@ -81,6 +81,7 @@
     Plugin 'instant-markdown.vim'
     Plugin 'junegunn/fzf' 
     Plugin 'tpope/vim-surround'
+    Plugin 'jelera/vim-javascript-syntax'
     " All of your Plugins must be added before the following line
     call vundle#end()            " required
     filetype plugin indent on    " required
