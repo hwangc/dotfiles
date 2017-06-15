@@ -82,6 +82,10 @@
     Plugin 'junegunn/fzf' 
     Plugin 'tpope/vim-surround'
     Plugin 'jelera/vim-javascript-syntax'
+    Plugin 'pangloss/vim-javascript'
+    Plugin 'mxw/vim-jsx'
+    " Plugin 'Valloric/YouCompleteMe'
+    Plugin 'Raimondi/delimitMate'
     " All of your Plugins must be added before the following line
     call vundle#end()            " required
     filetype plugin indent on    " required
@@ -160,4 +164,14 @@
 
 "InstantMarkDown Settings {
     let g:instant_markdown_autostart = 0
+" }
+
+"YouCompleteMe YCM Settings {
+"  let g:ycm_add_preview_to_completeopt=0
+"  let g:ycm_confirm_extra_conf=0
+"  set completeopt-=preview
+" }
+
+"scrooloose/syntastic Settings {
+  let g:syntastic_check_on_open=1
 " }
