@@ -7,6 +7,8 @@
     set number
     set clipboard=unnamed
     colorscheme monokai
+    "For windows 10 bash terminal
+    hi Normal ctermbg=none
     """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
     " => Text, tab and indent related
     """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
